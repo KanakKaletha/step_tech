@@ -36,20 +36,20 @@ We use a feature branch workflow, where changes are made on separate branches an
 
 
 ## Task 2: Database Interaction 
-#  -- a. Create a MySQL database with the name "users". 
+###  -- a. Create a MySQL database with the name "users". 
 CREATE DATABASE users;
 
  
 USE users;
 
-# -- b. Design a table "users" with the following columns:--  - id (int, primary key)  -- - name (varchar) --  - email (varchar) --  - role (varchar) -- 
+### -- b. Design a table "users" with the following columns:--  - id (int, primary key)  -- - name (varchar) --  - email (varchar) --  - role (varchar) -- 
 CREATE TABLE users (id  INT PRIMARY KEY,
 name VARCHAR(30),
 email VARCHAR(30),
 role VARCHAR(30));
 
 
-# --  c. Write SQL queries to:  - Insert sample data into the "users" table. 
+### --  c. Write SQL queries to:  - Insert sample data into the "users" table. 
 INSERT INTO users (id,name,email,role) VALUES
 (1,'kanak','k1@gmail.com', 'SD'),
 (2,'k2','k2@gmail.com','DS'),
@@ -58,11 +58,11 @@ INSERT INTO users (id,name,email,role) VALUES
 (5,'k5','k5@gmail.com','ML');
 
 
-# --  - Retrieve all users from the "users" table. 
+### --  - Retrieve all users from the "users" table. 
 SELECT * FROM users;
 
 
-#  -- - Retrieve a specific user by their ID. 
+###  -- - Retrieve a specific user by their ID. 
 SELECT * FROM users WHERE id=3;
 
 
