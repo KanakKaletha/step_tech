@@ -10,7 +10,7 @@ This is a Django application that provides a simple API for managing users.
 
 ## Setup and Installation
 
-1. Install the required dependencies by running `pip install -r requirements.txt`. 
+1. Install the required dependencies by running `pip install -r requirements_depend.txt`. 
 2. Set up a MySQL database and update the `DATABASES` setting in `settings.py` with your database credentials.
 3. Run `python manage.py migrate` to create the necessary database tables.
 4. Start the development server by running `python manage.py runserver`.
