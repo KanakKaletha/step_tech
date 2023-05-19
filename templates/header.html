@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet"  href="{% static 'css/main.css' %}">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="{% url 'index' %}">Home</a></li>
+              <li><a href="{% url 'hello' %}">Hello</a></li>
+              <li><a href="{% url 'users' %}">Users</a></li>
+              <li><a href="{% url 'new_user' %}">New User</a></li>
+          </ul>
+      </nav>
+  </header>
+    <main>
+      <!-- the main content of your page would go here -->
+    </main>
+  </body>
+</html>
